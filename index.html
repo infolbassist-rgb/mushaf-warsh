@@ -40,7 +40,9 @@ header .seg button.on{background:var(--paper);color:var(--ink)}
 .toolbar .grow{flex:1}
 .counter{font-size:13px;color:var(--muted)}
 label.chk{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--muted)}
-main{flex:1;max-width:820px;width:100%;margin:0 auto;padding:0 10px 110px}
+main{flex:1;max-width:820px;width:100%;margin:0 auto;padding:0 10px}
+.source{max-width:820px;margin:14px auto 0;padding:0 16px 120px;font-size:12px;line-height:1.5;color:var(--muted)}
+.source .ar{direction:rtl;text-align:right;display:block;margin-top:4px}
 .page{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 16px 10px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
 .pmeta{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-bottom:6px}
 .txt{direction:rtl;text-align:justify;font-family:"WarshKFGQPC",serif;font-size:var(--fs,30px);line-height:2.05;word-spacing:.04em}
@@ -87,6 +89,7 @@ footer button{min-width:48px;font-size:18px}
 <p class="help" id="help">Mode Révision : touchez un verset caché pour le révéler, retouchez-le pour le recacher.</p>
 
 <main id="main"></main>
+<p class="source"><b>Source du texte coranique :</b> Complexe du Roi Fahd pour l'impression du Saint Coran (Médine), rewâya Warsh ʿan Nâfiʿ, avec sa police officielle. Le texte est reproduit tel quel depuis cette source.<span class="ar">مصدر النص: مجمع الملك فهد لطباعة المصحف الشريف بالمدينة المنورة، رواية ورش عن نافع.</span></p>
 
 <footer>
   <div class="row">
